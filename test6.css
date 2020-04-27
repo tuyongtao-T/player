@@ -1,0 +1,96 @@
+div::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+h1 {
+	text-align: center;
+}
+hr {
+	border: none;
+	height: 3px;
+	background: palegreen;
+}
+.content {
+	position: relative;
+	width: 300px;
+	height: 500px;
+	background: lightskyblue;
+	border: 1px solid #1E90FF;
+	margin: 0px auto;
+	padding: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+.backImg {
+	width: 300px;
+	height: 300px;
+}
+
+.backImg img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 290px;
+	height: 285px;
+}
+
+.voice {
+	width: 250px;
+	height: 40px;
+	margin: 5px auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#num {
+	color: #000000;
+	text-align: center;
+	vertical-align: top;
+}
+.musicName {
+	padding: 10px;
+	text-align: left;
+	text-indent: 2em;
+}
+#username {
+	color: #0000CD;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+.btn {
+	width: 300px;
+	height: 40px;
+	margin: 20px auto;
+}
+.btn button{
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: #F5F5DC;
+	margin-left: 35px;
+	border-radius: 50%;
+	outline: none;
+}
+.fa {
+	color: #FF00FF;
+}
+#stop {
+	position: absolute;
+	top: 9px;
+	left: 12px;
+	opacity: 1;
+}
+#play {
+	position: absolute;
+	top: 9px;
+	left: 12px;
+	opacity: 0;
+}
+#start {
+	padding: 5px 20px;
+	font-size: 20px;
+	background: lightseagreen;
+	color: white;
+	font-weight: 400;
+	
+}

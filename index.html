@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="test6.css" />
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css"/>
+		<script src="test6.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<h1>简单音乐播放器</h1>
+		<hr />
+		<div class="content">
+			<div class="backImg">
+				<img src="bgs/bg1.png" id="img"/>
+				<audio src="voice/涛声依旧.mp3" preload id="music"></audio>
+			</div>
+			<div class="voice">
+				<label>
+					<input type="range" name="voice" id="voice" min="0" max="1" step="0.01" value="0.99" onchange="change()"/>
+					<span id="num">99</span>
+				</label>
+			</div>
+			<div class="musicName" >
+					<i style="font-style: normal;">当前正在播放：</i><span id="username">涛声依旧</span>
+			</div>
+			<div class="btn">
+				<button id="prev">
+					<i class="fa fa-fast-backward fa-2x"></i>
+				</button>
+				<button style="position: relative;" class="btn1">
+				<i class="fa fa-stop-circle fa-2x" id="stop"></i>
+				<i class="fa fa-play-circle fa-2x" id="play"></i>
+				</button>
+				<button id="next">
+				<i class="fa fa-fast-forward fa-2x"></i>
+				</button>
+			</div>
+			<button id="start">
+				<span>启动听歌程序</span>
+			</button>
+		</div>
+	</body>
+</html>
